@@ -1,0 +1,68 @@
+/* .multiple-line-chart-container {
+    font-family: "Arial", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  .fullscreen-button {
+    background-color: #28a745;
+  }
+  
+  .fullscreen-button:hover {
+    background-color: #218838;
+  }
+  
+  .showtable-button {
+    background-color: #ffc107;
+    color: #333;
+  }
+  
+  .showtable-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .sensor-data-chart-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .highcharts-root {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: white;
+  }
+   */

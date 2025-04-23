@@ -1,0 +1,34 @@
+.card-container {
+  width: 50%;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  padding: 30px;
+  margin-bottom: auto; /* Space below the card */
+  
+  justify-content: center;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between; /* Align content on both sides */
+}
+
+.headings1, .headings2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.headings1 {
+  align-items: flex-start; /* Align Alarms content to the left */
+}
+
+.headings2 {
+  align-items: flex-end; /* Align Severity content to the right */
+}
+
+.headings1 h5, .headings1 h6, .headings2 h5, .headings2 h6 {
+  margin: 5px 0; /* Consistent spacing between headings */
+}
+
