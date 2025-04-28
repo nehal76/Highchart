@@ -1,41 +1,34 @@
+import "./App.css";
+import LayoutBarChart from "./Charts/LayoutBarChart";
+import LineChart from "./Charts/LayoutTimeSeriesChartt";
+import MultipleLineChart from "./Charts/MultipleLineChart";
 
-import './App.css'
-import LayoutBarChart from './Charts/LayoutBarChart';
-import LineChart from './Charts/LayoutTimeSeriesChartt';
-import MultipleLineChart from './Charts/MultipleLineChart'
-
-import Nav from './Charts/Nav'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import LayoutLineChart from './Charts/LayoutLineChart';
-import LayoutTimeSeriesChart from './Charts/LayoutTimeSeriesChartWithValue';
-
-
-
-
+import Nav from "./Charts/Nav";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import LayoutLineChart from "./Charts/LayoutLineChart";
+import LayoutTimeSeriesChart from "./Charts/LayoutTimeSeriesChartWithValue";
+import { Tailwind } from "./Tailwind/Tailwind";
 
 function App() {
-  
-
   return (
     <>
-    <Router>
-        <div className='container'><Nav /> {/* Correctly use Nav component here */}
+      <Router>
+        <div className="container">
+          <Nav /> {/* Correctly use Nav component here */}
         </div>
         <Routes>
-          <Route path="/linechart" element={<LineChart/>} />
+          <Route path="/linechart" element={<LineChart />} />
           <Route path="/multichart" element={<MultipleLineChart />} />
           <Route path="/LayoutBarChart" element={<LayoutBarChart />} />
-          <Route path="/LayoutLineChart" element={<LayoutLineChart/>} />
-          <Route path="/LayoutTimeSeriesChart" element={<LayoutTimeSeriesChart/>} />
-       
-          
-        
+          <Route path="/LayoutLineChart" element={<LayoutLineChart />} />
+          <Route
+            path="/LayoutTimeSeriesChart" element={<LayoutTimeSeriesChart />}
+          />
+          <Route path="Tailwind" element={<Tailwind />} />
         </Routes>
       </Router>
-      
-    
     </>
-  )
+  );
 }
 
-export default App
+export default App;

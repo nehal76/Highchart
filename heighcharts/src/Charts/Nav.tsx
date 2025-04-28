@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 
 export default function Nav(): JSX.Element {
   return (
+    <>
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
+      <div className="container-justify-content-center">
         <a className="navbar-brand" href="\">
-          Charts
+          Home
         </a>
         <button
           className="navbar-toggler"
@@ -46,10 +47,16 @@ export default function Nav(): JSX.Element {
               <Link className="nav-link" to="/LayoutTimeSeriesChart">
                 TimeSeriesChartWithValue
               </Link>
+              <li className="nav-item">
+              <Link className="nav-link" to="/Tailwind">
+                Tailwind
+              </Link>
+            </li>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    </>
   );
 }
