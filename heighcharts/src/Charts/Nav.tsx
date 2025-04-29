@@ -6,7 +6,7 @@ export default function Nav(): JSX.Element {
     <>
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-justify-content-center">
-        <a className="navbar-brand" href="\">
+        <a className="navbar-brand " href="\">
           Home
         </a>
         <button

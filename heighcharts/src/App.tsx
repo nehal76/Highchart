@@ -22,7 +22,8 @@ function App() {
           <Route path="/LayoutBarChart" element={<LayoutBarChart />} />
           <Route path="/LayoutLineChart" element={<LayoutLineChart />} />
           <Route
-            path="/LayoutTimeSeriesChart" element={<LayoutTimeSeriesChart />}
+            path="/LayoutTimeSeriesChart"
+            element={<LayoutTimeSeriesChart />}
           />
           <Route path="Tailwind" element={<Tailwind />} />
         </Routes>
